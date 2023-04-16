@@ -1,5 +1,10 @@
 # Ki take home exercise
 
+## Notes on submission
+
+- A lean approach was taken to the task, see comments
+- The original pom.xml file had a duplicate dependency that needed removal for the task to run
+
 ## Background
 
 The Ki website allows customers to open an account and purchase shares in one or more funds. Before a customer can buy shares, they top up their account with a desired amount, using a debit card.
@@ -73,4 +78,3 @@ mvn test
 #### Notes
 
 The code base has been written to compile under Java 8 (and Kotlin 1.6.0-RC2) and upwards. Dependencies are managed via Maven, see the `pom.xml` file.
-
